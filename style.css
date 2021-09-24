@@ -13,64 +13,13 @@ body {
   background-color: gainsboro;
 }
 /* Right Colum */
-/* First Square On Right: Header */
-.square1R {
-  background: #001933;
-  display: flex;
-  height: 230px;
-  width: 550px;
-  border-top: 4px gainsboro solid;
-  border-left: 4px gainsboro solid;
-  border-bottom: 3px white solid;
-}
-/* Box Inside #1 Box in Right Colum*/
-/* name + OverView*/
-.box {
-  width: 410px;
-  height: 150px;
-  margin: auto;
-  border: 3px solid;
-  border-color: white;
-  margin-top: -18em;
-  left: 380px;
-}
-.name {
-  text-align: center;
-  padding-top: 10px;
-  border-bottom: 2px solid;
-  padding-bottom: 4px;
-  font-size: 40px;
-  color: white;
-}
+
 .overview {
   padding-top: 1em;
   font-size: 14px;
   margin-left: 2em;
   margin-right: 2em;
   color: white;
-}
-/*About Me blue box*/
-.square2R {
-  background: #001933;
-  height: 30px;
-  width: 558px;
-  margin-top: 5em;
-}
-h3 {
-  color: white;
-  font-size: 25px;
-  margin-top: -1.1em;
-  margin-left: 1em;
-}
-/*blue box bodies*/
-.Me {
-  color: navy;
-  font-size: 12.5px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  line-height: 1.7;
-  margin-bottom: -0.2em;
 }
 /* Work Experience Body*/
 h4 {
@@ -81,23 +30,6 @@ h4 {
   margin-bottom: 8px;
   margin-top: 2.3em;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-h5 {
-  font-size: 15px;
-  padding-top: 0.1em;
-  margin: 0px;
-  color: darkblue;
-  padding-left: 2.6em;
-  line-height: 0.11px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-h6 {
-  font-size: 14px;
-  margin: 13px;
-  padding-left: 4.5em;
-  color: mediumblue;
-  margin-top: 0.4em;
-  margin-bottom: -0.4em;
 }
 /* Skills Body*/
 #skills {
@@ -143,7 +75,7 @@ h2 {
   font-size: 16px;
   font-family: hebrew;
 }
-/* Institues box*/
+/* Inst box*/
 .squareLogo {
   background: #001933;
   display: flex;
@@ -157,6 +89,5 @@ h2 {
   width: 220px;
   height: 160px;
   border: 2px solid #003366;
-  border: light;
   border-radius: 50%;
 }
