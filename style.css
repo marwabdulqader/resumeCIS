@@ -1,158 +1,159 @@
 body {
-    background: whitesmoke;
-    border-right: 565px solid;
-    padding: 2em;
-    border-color: gainsboro;
-    height: 78em;
-    border-bottom: 1px solid;
-    border-bottom-color: #003366;
-    margin-left: auto;
-    margin-right: auto;
-    width: 29%;
-    display: flex;
-  }
-  #rightColum{
-    margin-left: 7.5em;
-    margin-top:-29px
-  }
-  /* Right Colum */
-/* First Square On Right: Header */
-  .square1R {
-    background: #001933;
-    display: flex;
-    height: 230px;
-    width: 550px;
-    border-top: 4px gainsboro solid;
-    border-left: 4px gainsboro solid;
-    border-bottom: 3px white solid;
-  }
-  /* Box Inside #1 Box in Right Colum*/
-  /* name + OverView*/
-  .box {
-     width:410px;
-     height:150px;
-     margin:auto;
-     border:3px solid ;
-     border-color: white;
-     margin-top:-18em;
-     left: 380px;
-  }
-  .name {
-    text-align: center;
-    padding-top: 10px;
-    border-bottom: 2px solid;
-    padding-bottom: 4px;
-    font: arabic-indic;
-    font-size: 40px;
-    color: white;
- }
- .overview{
-    padding-top: 1em;
-    font: arabic-indic;
-    font-size: 14px;
-    margin-left: 2em;
-    margin-right: 2em;
-    color: white;
- }
- /*About Me blue box*/
-.square2R {
-    background: #001933;
-    height: 30px;
-    width: 558px;
-    margin-top:5em;
-}  
-h3{
-  color: white;
-  font-size: 25px;
-  margin-top:-1.1em;
-  margin-left:1em;
+  background: whitesmoke;
+  padding: 0em;
+  border: 1px solid;
+  border-color: #003366;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 940px;
 }
-/*blue box bodies*/
-.Me {
+
+/* Right Colum */
+#rightColum {
+  margin-right: 2px;
+  margin-left: 5px;
+  background-color: gainsboro;
+}
+
+#summary {
+  background-color: #003366;
+  font-size: medium;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  padding-top: 0.1px;
+  padding-bottom: 0.4em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.overview {
+  margin-top: 9px;
+}
+
+#AboutMe p {
   color: navy;
   font-size: 12.5px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  padding-left:1.5em;
-  padding-right:1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   line-height: 1.7;
-  margin-bottom: -.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
-/* Work Experience Body*/
-h4{
- font-size:16px;
-color:navy;
-padding-left:1.5em;
-padding-bottom: 1px;
-margin-bottom: 1px;
-margin-top:2.3em;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h5{
-font-size:15px;
-padding-top:.1em;
-margin:0px;
-color:darkblue;
-padding-left:2.6em;
-line-height: .11px
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h6{
-Font-size:14px;
-margin:13px;
-padding-left:4.5em;
-color:mediumblue;
-margin-top:.40em;
-margin-bottom: -1em;
 
+h1 {
+  margin-bottom: 1px;
 }
-/* Skills Body*/
-#skills{
-    color: navy;
-    font-size: 18px;
-    line-height: 30px;
-    margin-top:-2.5em;
-    }
-/*left colum*/ 
-h2{
-Color:navy;
-line-height: 1px;
-font-size:34px;
-padding-bottom: .3em;
 
+h2 {
+  color: white;
+  line-height: 1px;
+  font-size: 25px;
+  padding-bottom: 0.3em;
+  padding-left: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 1px;
 }
-/* Contact body*/
-#Contact{
+
+h3 {
+  color: white;
+  font-size: 20px;
+  background-color: #003366;
+  padding-left: 0.6em;
+  margin-top: 12px;
+  margin-bottom: 1px;
+}
+
+h4 {
+  font-size: 14px;
   color: navy;
+  padding-left: 1.5em;
+  padding-bottom: 1px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#languages,
+#volunteer,
+#Program,
+#Contact {
+  padding-top: 0.4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 23px;
+  color: white;
+  font-family: hebrew;
+  font-size: 14px;
+}
+
+#Contact {
   font-size: 16px;
-  line-height: 2px;
-  padding-bottom: .4em;
-  padding-top:1.4em;
 }
-/* Organization body */
-#Organization{
-padding-bottom: .3em;
-line-height: 8px;
-color: navy;
-font-size:16px;
-font-family:hebrew;
+
+#volunteer ul,
+#Program ul,
+#languages ul,
+#Contact ul {
+  margin-top: 0px;
 }
-.Volunteer{
-padding-bottom: .3em;
-line-height: 8px;
-color: navy;
-font-size:16px;
-font-family:hebrew;
-  }
-  #languages{
-    padding-bottom: .3em;
-    line-height: 8px;
-    color: navy;
-    font-size:16px;
-    font-family:hebrew;
-  }    
-/* Institues box*/
-.squareLogo{
-    background: #001933;
-    display: flex;
-    height: 200px;
-   }
+
+#WorkExperience p,
+#Education p {
+  padding-left: 2em;
+  margin: 0;
+  color: darkblue;
+  font-size: 13px;
+  padding-left: 4.3em;
+}
+
+/* Skills Body*/
+#skills li {
+  color: navy;
+  font-size: 14px;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+#skills ul {
+  margin-bottom: 0px;
+  padding-left: 2em;
+}
+
+/*left colum*/
+#left-colum {
+  margin-left: 2px;
+  background-color: #163c68;
+}
+
+#Contact a,
+#volunteer a,
+#Program a,
+#Contact {
+  color: white;
+}
+
+/*image*/
+#me {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+  width: 220px;
+  height: 140px;
+  border: 2px solid #003366;
+  border-radius: 50%;
+}
+
+/* logos*/
+#Logo {
+  float: left;
+  width: 70%;
+  height: 80%;
+  margin-left: 19px;
+  padding: 5px;
+}
